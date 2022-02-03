@@ -10,7 +10,9 @@
 
 <body>
   <header class="page-header">
-    <a class="logo" href="#"></a>
+    <a class="logo" href="#">
+      <img src="#" alt="Логотип Седона">
+    </a>
     <nav class="navigation">
       <ul class="navigation-list">
          <li class="navigation-item">
@@ -23,7 +25,7 @@
           <a class="navigation-link-hotel" href="about.html">Гостиница</a>
         </li>
       </ul>
-      <ul class="navigation-list Navigation-list">
+      <ul class="navigation-list-right">
          <li class="navigation-item-search">
           <a class="navigation-link-search" href="#">Поиск</a>
         </li>
@@ -36,24 +38,24 @@
       </ul>
     </nav>
   </header>
-  <section class="main-section">
-    <header class="inner-header-title">
-      <h1 class="heading">Гостиницы Седоны</h1>
+  <section class="cap-catalog">
+    <header class="cap-catalog-title">
+      <h1 class="cap-catalog-heading">Гостиницы Седоны</h1>
       <img class="logo-house" src="" alt="картинка домик гостиницы">
-      <p class="heading-link-hotel">Гостиницы</p>
-      <ul class="heading-list-hotel">
-        <li class="heading-link-infrastructure">
-          <a class="heading-list-infrastructure">Инфраструктура</a>
+      <p class="cap-catalog-link-hotel">Гостиницы</p>
+      <ul class="cap-catalog-list-hotel">
+        <li class="cap-catalog-link-infrastructure">
+          <a class="cap-catalog-list-infrastructure">Инфраструктура</a>
         </li>
       </ul>
-      <ul class="heading-tupe-housing">
-        <li class="heading-link-tupe-housing">
-          <a class="heading-list-tupe-housing">Тип жилья</a>
+      <ul class="cap-catalog-tupe-housing">
+        <li class="cap-catalog-link-tupe-housing">
+          <a class="cap-catalog-list-tupe-housing">Тип жилья</a>
         </li>
       </ul>
-      <ul class="heading-price">
-        <li class="heading-list-price"></li>
-        <a class="heading-link-price">Стоимость</a>
+      <ul class="cap-catalog-price">
+        <li class="cap-catalog-list-price"></li>
+        <a class="cap-catalog-link-price">Стоимость</a>
         </li>
       </ul>
       <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
@@ -68,70 +70,69 @@
         <input type="submit" value="Применить">
         <input type="submit" value="Сбросить">
       </form>
-
   </section>
   <section class="search-section">
     <header class="search-results">
-      <nav class="nav-search-results">
-        <form action="https://echo.htmlacademy.ru/courses" method="post">
-          <input type="text" name="Сначало дешёвые"> шт
-          <ul class="nav-picture">
-            <li class="nav-picture-many">
-            <img class=" picture-many" src="#" alt="результат поиска в виде квадратиков">
-            <button class="botton-many" type="button">
+      <nav class="search-results-nav">
+        <nav class="nav">
+          <form action="https://echo.htmlacademy.ru/courses" method="post">
+            <input type="text" name="Сначало дешёвые"> шт
+            <ul class="search-section-nav-picture">
+              <li class="search-section-nav-picture-many">
+                <img class="search-section-picture-many" src="#" alt="результат поиска в виде квадратиков">
+                <button class="search-section-botton-many" type="button">
               </li>
-              < li class="nav-picture-all-page">
-                <img class="all-page" href="#" alt="результат поиска один на страницу"></a>
-                <button class="all-page" type="button"></button>
-              </li>
-              <li class="nav-picture-all-list">
-                <img class="picture-all-list" href="#" alt="результат поиска список на страницу"></a>
-                <button class="all-list" type="button"></button>
-              </li>
-              </ul>
-      </nav>
+              <li class="nav-picture-all-page">
+                <img class="search-section-all-page" href="#" alt="результат поиска один на страницу"></a>
+                <button class="search-section-botom" type="button"></button>
+                <li class="nav-picture-all-list">
+                  <img class="search-section-picture-all-list" href="#" alt="результат поиска список на страницу"></a>
+                  <button class="search-section-all-list" type="button"></button>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main class="body-search">
       <ul class="list-search">
         <li class="list-content-amara">
           <h2 class="name-amara">amara recort & spa</h2>
           <img class="foto-amara" src="#" alt=" фото отеля в горе">
-          <p class="" >Гостиница</p>
+          <p class="">Гостиница</p>
           <p class="price-amara">от 4000 р</p>
           <a href="#"></a>
           <button class="like-amara" type="button"></button>
           <div class="star-amara">*****</div>
-          <div class="rating-amara" >рейтин:8.5</div>
+          <div class="rating-amara">рейтин:8.5</div>
         </li>
         <li class="list-content-desert">
           <h2 class="name-desert">desert queil inn</h2>
           <img class="foto-desert" src="#" alt=" фото отеля и равнины">
-          <p class="" >Гостиница</p>
+          <p class="">Гостиница</p>
           <p class="price-amara">от 3000 р</p>
           <a href="#"></a>
           <button class="like-desert" type="button"></button>
           <div class="star-desert">***</div>
-          <div class="rating-desert" >рейтин:8.9</div>
+          <div class="rating-desert">рейтин:8.9</div>
         </li>
         <li class="list-content-dioblo">
           <h2 class="name-dioblo">villas at poco dioblo</h2>
           <img class="foto-dioblo" src="#" alt=" фото отеля и равнины">
-          <p class="" >Гостиница</p>
+          <p class="">Гостиница</p>
           <p class="price-dioblo">от 2000 р</p>
           <a href="#"></a>
           <button class="like-dioblo" type="button"></button>
           <div class="star-dioblo">**</div>
-          <div class="rating-dioblo" >рейтин:9.2</div>
+          <div class="rating-dioblo">рейтин:9.2</div>
         </li>
         <li class="list-content-greentree">
           <h2 class="name-greentree">greentree inn</h2>
           <img class="foto-greentree" src="#" alt=" фото дороге на гору">
-          <p class="" >Гостиница</p>
+          <p class="">Гостиница</p>
           <p class="price-greentree">от 3000 р</p>
           <a href="#"></a>
           <button class="like-greentree" type="button"></button>
           <div class="star-greentree">**</div>
-          <div class="rating-greentree" >рейтин:9.2</div>
+          <div class="rating-greentree">рейтин:9.2</div>
       </ul>
       <button class="button load-more" type="submit">
         <span class="visually-hidden">Загрузить еще</span>
