@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="page-header">
+    <a class="logo" href="#">
+      <img src="#" alt="Логотип Седона">
+    </a>
+    <nav class="navigation">
+      <ul class="navigation-list">
+         <li class="navigation-item">
+          <a class="navigation-link" href="#">Главная</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">О Седоне</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">Гостиница</a>
+        </li>
+      </ul>
+      <ul class="navigation-list-right">
+         <li class="navigation-item">
+          <a class="navigation-link" href="#">Поиск</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">Лайки</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">хочу сюда!</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section class="filter">
+    <h1 class="filter-title">Гостиницы Седоны</h1>
+    <img class="filter-image" src="#" alt="картинка домик гостиницы">
+    <p class="filter-text">Гостиницы</p>
+    <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+      <fieldset class="catalog-filter-group">
+        <legend class="catalog-filter-title">Инфраструктура</legend>
+        <ul class="catalog-filter-list">
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="Басеин" checked>Басеин
+            </label>
+          </li>
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="Парковка" checked>Парковка
+            </label>
+          </li>
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="wi-hi">wi-hi
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset class="catalog-filter-group">
+        <legend class="catalog-filter-title">Тип жилья</legend>
+        <ul class="catalog-filter-list">
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="Гостиница" checked>Гостиница
+            </label>
+          </li>
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="Мотель">Мотель
+            </label>
+          </li>
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="Апартаменты">Апартаменты
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+
+      <ul class="catalog-filter-list">
+        <li class="filter-item"></li>
+        <a class="filter-link">Стоимость</a>
+        <label class="control">
+          <input type="text" name="от">
+          <input type="text" name="до">
+        </label>
+        </li>
+      </ul>
+      <button class="button" type="submit">Применить</button>
+      <button class="button" type="submit">Сбросить</button>
+    </form>
+  </section>
+  <section class="sorting">
+    <h2 class="sorting-title">Найдено страниц: 38</h2>
+    <form action="https://echo.htmlacademy.ru/courses" method="post">
+      <input type="text" name="Сначало дешёвые"> шт
+      <ul class="sorting-list">
+        <li class="sorting-item">
+          <img class="sorting-image" src="#" alt="результат поиска в виде квадратиков">
+          <button class="search-botton" type="button">
+        </li>
+        <li class="sorting-item">
+          <img class="sorting-image" href="#" alt="результат поиска один на страницу"></a>
+          <button class="search-botton" type="button"></button>
+        <li class="sorting-item">
+          <img class="sorting-image" href="#" alt="результат поиска список на страницу"></a>
+          <button class="search-botton" type="button"></button>
+        </li>
+      </ul>
+  </section>
+  <main class="catalog">
+    <ul class="catalog-list">
+      <li class="catalog-item">
+        <h2 class="catalog-title">amara recort & spa</h2>
+        <img class="catalog-foto" src="#" alt=" фото отеля в горе">
+        <p class="catalog-text">Гостиница</p>
+        <p class="catalog-price">от 4000 р</p>
+        <a href="#">Подробнее</a>
+        <button class="catalog-favorites" type="button"></button>
+        <div class="catalog-rating">*****</div>
+        <div class="catalog-rating-number">рейтин:8.5</div>
+      </li>
+      <li class="catalog-item">
+        <h2 class="catalog-title">desert queil inn</h2>
+        <img class="catalog-foto" src="#" alt=" фото отеля и равнины">
+        <p class="catalog-text">Гостиница</p>
+        <p class="catalog-price">от 3000 р</p>
+        <a href="#">в избранное</a>
+        <button class="catalog-favorites" type="button"></button>
+        <div class="catalog-rating">***</div>
+        <div class="catalog-rating-number">рейтин:8.9</div>
+      </li>
+      <li class="catalog-item">
+        <h2 class="catalog-title">villas at poco dioblo</h2>
+        <img class="catalog-foto" src="#" alt=" фото отеля и равнины">
+        <p class="">Гостиница</p>
+        <p class="catalog-price">от 2000 р</p>
+        <a href="#">в избранное</a>
+        <button class="catalog-favorites" type="button"></button>
+        <div class="catalog-rating">**</div>
+        <div class="catalog-rating-number">рейтин:9.2</div>
+      </li>
+      <li class="catalog-item">
+        <h2 class="catalog-title">greentree inn</h2>
+        <img class="catalog-foto" src="#" alt=" фото дороге на гору">
+        <p class="">Гостиница</p>
+        <p class="catalog-price">от 3000 р</p>
+        <a href="#">в избранное</a>
+        <button class="catalog-favorites" type="button"></button>
+        <div class="catalog-rating">**</div>
+        <div class="catalog-rating-number">рейтин:9.2</div>
+    </ul>
+    <button class="catalog load-more" type="submit">
+      <span class="catalog-bottom">Загрузить еще</span>
+    </button>
+  </main>
+  <section class="pogination">
+    <ul class="pogination-list">
+      <li class="pogination-item">
+        <a class="pagination-link" href="#">1</a>
+      </li>
+      <li class="pagination-item">
+        <a class="pagination-link" href="#">2</a>
+      </li>
+      <li class="pagination-item">
+        <a class="pagination-link" href="#">3</a>
+      </li>
+      <li class="pagination-item">
+        <a class="pagination-link" href="#">4</a>
+      </li>
+      <li class="pagination-item">
+        <a class="pagination-link" href="#">...</a>
+      </li>
+      <li class="pagination-item">
+        <a class="pagination-link" href="#">10</a>
+      </li>
+    </ul>
+    <p class="pagination-page">гостиниц на страницы</p>
+    <form class="pagination-form" action="https://echo.htmlacademy.ru/courses" method="post">
+      <input type="text" name="4">
+      </form>
+  </section>
+  <section class="mailing-list">
+    <h3 class="mailing-list-title-">Подпишись на рассылку</h3>
+    <p class="mailing-list-text">Только полезная информация и никакого спама,честное бойскаутское!</p>
+    <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+    <button class="bottom" type="submit">
+      <span class="mailing-list-bottom">Подписаться</span>
+    </button>
+  </section>
+  <footer class="footer-page">
+    <ul class="social-list">
+      <li class="social-item">
+        <a class="social-link" href="#">facebook</a>
+      </li>
+      <li class=" social-item">
+          <a class="social-link" href="#">twitter</a>
+      </li>
+      <li class="social-item">
+        <a class="social-link" href="#">youtube</a>
+      </li>
+    </ul>
+    <a hfer="tel:+7(812)812-12-12">+7(812)812-12-12</a>
+    <a class="footer-logo" href="#">логотип</a>
+  </footer>
+</body>
+
+</html>

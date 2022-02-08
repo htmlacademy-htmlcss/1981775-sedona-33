@@ -1,12 +1,133 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+</head>
 
-  </body>
+<body>
+  <header class="page-header">
+    <nav class="navigation">
+      <a class="logo" href="#">
+        <img src="#" alt="Логотип Седона">
+      </a>
+      <ul class="navigation-list">
+         <li class="navigation-item">
+          <a class="navigation-link" href="/">Главная</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">О Седоне</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">Гостиница</a>
+        </li>
+      </ul>
+      <ul class="navigation-list ">
+         <li class="navigation-item">
+          <a class="navigation-link" href="#">Поиск</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">Лайки</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">хочу суда</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main-index">
+    <section class="hero">
+      <img class="hero-bg" src="#" alt="картинка седона и велком">
+      <h2 class="here-title">СЕДОНА-НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО</h2>
+      <p claass="here-subtitle">Рассмотрим 5 причин,по которым Седона круче,чем Грагд коньен</p>
+    </section>
+    <section class="benefist-section">
+      <h2 class="visually-hidden">Приумущества Седона</h2>
+      <ul class="benefist-list">
+        <li class="benefist-item">
+          <h3 class="benefist-title"> настоящий город</h3>
+          <p class="benefist-number">№1</p>
+          <p class="benefist-text">Седона это не атракцыон для туристов,там течет своя жизнь</p>
+        </li>
+        <li class="benefist-item">
+          <img class="benefist-xt">Не только китайского ,но и настоящего местного производства!</p>
+          <img class="benefist-image-big" src="#" alt="фото улиц города в цветах">
+        </li>
+        <li class="benefist-item">
+          <h3 class="benefist-title">Жилье </h3>
+          <p class="benefist-text">Рекомендуем пожить в настоящем мотеле,всё как в кино</p>
+          <img class="benefist-xt">Не только китайского ,но и настоящего местного производства!</p>
+          <img class="benefist-image" src="#" alt="картинка дом">
+        </li>
+        <li class="benefist-item">
+          <h3 class="benefist-title">Еда</h3>
+          <p class="benefist-text">Всегда заказывайте топовые фермерский бургер,вы не разочаруетесь!</p>
+          <img class="benefist-xt">Не только китайского ,но и настоящего местного производства!</p>
+          <img class="benefist-image" src="#" alt="картинка бургер">
+        </li>
+        <li class="benefist-item">
+          <h3 class="benefist-title">Сувениры</h3>
+          <p class="benefist-text">Не только китайского ,но и настоящего местного производства!</p>
+          <img class="benefist-image" src="#" alt="картинка подарок">
+        </li>
+        <li>
+          <img class="benefist-image-big" src="#" alt="фото каньёна">
+        </li>
+        <li class="benefist-item">
+          <h3 class="benefist-title">там есть мост дьявола</h3>
+          <p class="benefist-namber">№2</p>
+          <p class="benefist-text">Да,по нему можно пройти!Если вы осмелитесь,разумеется </p>
+        </li>
+        <li class="benefist-item">
+          <h3 class="benefist-title">НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
+          <p class="benefist-number">№3</p>
+          <p class="benefist-text">Все достопримечательности находяться очень близко </p>
+        </li>
+        <li class="benefist-item">
+          <h3 class="benefist-title">КРАСИВАЯ ДОРОГА</h3>
+          <p class="benefist-number">№4</p>
+          <p class="benefist-text">ВЕхать в Седону из Лас-Вегаса совсем не скучно! </p>
+        </li>
+        <li class="benefist-item">
+          <h3 class="benefist-title">МОЛО ТУРИСТОВ</h3>
+          <p class="benefist-number">№5</p>
+          <p class="benefist-text">Большенство едет в Гранд Каньон </p>
+        </li>
+      </ul>
+    </section>
+    <section class="hotel-search">
+      <h3 class="hotel-search-title">Заинтересовались</h3>
+      <p class="hotel-search-text">Укажите предлогаемые даты поездки,и мы покажем вам лучшее предложение гостиницы в
+        Седоне</p>
+      <a href="#">Поиск гостиницы в Седоне </a>
+    </section>
+    <section class="newsletter">
+      <h3 class="newsletter-title">Подпишись на рассылку</h3>
+      <p class="newsletter-text">Только полезная информация и никакого спама,честное бойскаутское!</p>
+      <form class="newsletter-form" action="https://echo.htmlacademy.ru/courses" method="post">
+        <label for="login-field">
+          <input class="newsletter" type="text" id="login-field" name="e-mail" placeholder="Ваш e-mail">
+        </label>
+        <input type="submit" value="Подписаться">
+      </form>
+    </section>
+  </main>
+  <footer class="footer-page">
+    <ul class="social-list">
+      <li class="social-item">
+        <a class="social-link" href="#">facebook</a>
+      </li>
+      <li class="social-item">
+        <a class="social-link" href="#">twitter</a>
+      </li>
+      <li class="social-item">
+        <a class="social-link" href="#">youtube</a>
+      </li>
+    </ul>
+    <a hfer="tel:+7(812)812-12-12">+7(812)812-12-12</a>
+    <a class="footer-logo" href="#">логотип</a>
+  </footer>
+</body>
+
 </html>
