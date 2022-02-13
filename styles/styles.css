@@ -1,0 +1,181 @@
+@font-face {
+  
+    font-family: "PT Sans";
+    font-style: normal;
+  font-weight: 400;
+  
+  src: url("fonts/pt-sans-regular.woff2") format("woff2");
+  font-display: swap;
+  }
+  @font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/pt-sans-bold.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "PT Sans";
+    font-style: italic;
+    font-weight: 400;
+    src: url("fonts/pt-sans-italic.woff2") format("woff2");
+
+    @font-face {
+        font-family: "PT Sans";
+        font-style: italic;
+        font-weight: 700;
+        src: url("fonts/pt-sans-bold-italic.woff2") format("woff2");
+        font-display: swap;
+      }  
+      @font-face {
+        font-family: "PT Sans Narrow";
+        font-style: normal;
+        font-weight: 700;
+        src: url("fonts/pt-sans-narrow-bold.woff2") format("woff2");
+        font-display: swap;
+      }
+      body {
+        font-family: "PT Sans", sans-serif;
+        font-size: 16px;
+  line-height: 24px;
+  background-color: #FFFFFF;
+  color: #000000;
+      }
+      .page-header { 
+        color: #000000;
+        background-color: #ffffff;
+      }
+      .navigation {    
+        font-family: "PT Sans Narrow", sans-serif; 
+        font-size: 20px;
+        line-height: 26px;
+        color: #000000;
+        font-weight: bold;
+        font-style: normal;
+      }
+      .main-index{
+        color: #000000;
+        background-color: #ffffff;
+        background-image: url("images/index-background.jpg");
+        background-size: 100% auto;
+  background-repeat: no-repeat;
+      }
+      .here-title{
+        font-family: PT Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+      }
+      .here-subtitle{    
+font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 36px;
+text-align: center;
+color: #333333;
+}
+.benefist-item-color{
+    background: #83B3D3;
+}
+.benefist-title-color-general{
+    background: rgba(131, 179, 211, 0.12);
+}
+.benefist-title-color-one{
+    background: #FFFFFF;   
+}
+.benefist-title-color-two{
+    background: rgba(131, 179, 211, 0.2);
+}
+      .benefist-title{
+        font-family: PT Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+      }
+.benefist-number{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;   
+    color: #FFFFFF; 
+}
+.benefist-text{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;  
+    text-align: center;
+    color: #FFFFFF;    
+}
+.hotel-search-title{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;  
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.hotel-search-text{
+    font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+color: #333333;
+}
+.hotel-search-button{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;   
+}
+.newsletter-title{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+}
+.newsletter-text{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.social-list-phon{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;  
+}
