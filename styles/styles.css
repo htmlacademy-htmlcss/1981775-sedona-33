@@ -41,6 +41,8 @@ body {
   font-weight: bold;
   font-size: 20px;
   line-height: 26px;
+  color: inherit
+  text-color-dark
 }
 .main-title {
   font-weight: bold;
@@ -68,7 +70,7 @@ body {
   line-height: 36px;
   text-align: center;
 }
-.hotel-search-text {
+.primary-text {
   font-weight: normal;
   font-size: 22px;
   line-height: 26px;
