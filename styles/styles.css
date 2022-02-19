@@ -37,125 +37,16 @@ body {
   background-color: #ffffff;
   color: #000000;
 }
-.navigation-list {
-  font-weight: bold;
+.secondary-text {
   font-size: 20px;
   line-height: 26px;
-  color: inherit
-  text-color-dark
-}
-.main-title {
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 36px;
-  text-align: center;
-  text-transform: uppercase;
-}
-.article-title {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-  text-transform: uppercase;
-}
-.tertiary-text {
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
-  text-align: center;
-}
-.hero-subtitle {
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 36px;
-  text-align: center;
-}
-.primary-text {
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 26px;
-  text-align: center;
-  color: #333333;
-}
-.newsletter-text {
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 26px;
-  text-align: center;
-  color: #ffffff;
-}
-.filter-title {
-  font-weight: bold;
-  font-size: 60px;
-  line-height: 78px;
-  color: #ffffff;
-}
-.breadcrumbs-link {
-  font-size: 16px;
-  line-height: 21px;
-  color: #ffffff;
-}
-.catalog-filter-title {
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 26px;
-  color: #ffffff;
-}
-.catalog-filter-list {
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 23px;
-  color: #ffffff;
-}
-.hotel-search-button {
-  font-size: 20px;
-  line-height: 36px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-.sorting-title {
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 39px;
-  text-transform: uppercase;
   color: #000000;
 }
-.sorting-option {
-  font-size: 18px;
-  line-height: 23px;
-}
-.catalog-title {
-  font-size: 24px;
-  line-height: 31px;
-}
-.catalog-text {
-  font-size: 18px;
-  line-height: 23px;
-}
-.catalog-more {
-  font-size: 16px;
-  line-height: 21px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-.catalog-rating-number {
+.navigation-link {
   font-weight: bold;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 20px;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-}
-.social-list-phone {
-  font-weight: normal;
-  font-size: 40px;
-  line-height: 40px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #000000;
-}
-.footer-logo {
-  background: #000000;
 }
