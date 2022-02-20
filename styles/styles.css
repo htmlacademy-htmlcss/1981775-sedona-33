@@ -37,16 +37,57 @@ body {
   background-color: #ffffff;
   color: #000000;
 }
+.social-list-phone {
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.main-title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.article-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.primary-text {
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+}
+.hotel-search-text {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+.newsletter-text {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
 .secondary-text {
+  font-weight: bold;
   font-size: 20px;
   line-height: 26px;
   color: #000000;
 }
-.navigation-link {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
+.tertiary-text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
   text-align: center;
-  text-transform: uppercase;
+}
+.benefist-item-color {
   color: #ffffff;
 }
