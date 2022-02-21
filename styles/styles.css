@@ -106,7 +106,7 @@ body {
 /* конец секции  hotel-search */
 /* начало секции  newsletter */
 .newsletter {
-  background-image: url("images/background.jpg");
+  background-image: url("../images/background.jpg");
   background-size: 100% auto;
   color: #ffffff;
   background-color: #83b3d3;
@@ -120,14 +120,18 @@ body {
   font-size: 22px;
   line-height: 26px;
 }
-.newsletter {
-  font-size: 18px;
-  line-height: 26px;
-}
 .newsletter-button {
   font-size: 20px;
   line-height: 26px;
   background-color: #83b3d3;
   text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
 }
 /* конец секции  newsletter */
+/* начало секции  footer */
+ .footer-phone {
+  text-decoration: none;
+  color: #000000;
+}
+/* конец секции  footer */
