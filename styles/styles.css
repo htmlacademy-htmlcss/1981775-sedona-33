@@ -120,4 +120,14 @@ body {
   font-size: 22px;
   line-height: 26px;
 }
+.newsletter {
+  font-size: 18px;
+  line-height: 26px;
+}
+.newsletter-button {
+  font-size: 20px;
+  line-height: 26px;
+  background-color: #83b3d3;
+  text-transform: uppercase;
+}
 /* конец секции  newsletter */
