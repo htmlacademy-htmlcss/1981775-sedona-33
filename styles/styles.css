@@ -79,25 +79,31 @@ body {
 }
 /* конец правой навигации */
 /* начало секции бенефист */
-.benefist-item-backgraund{
-  color: #FFFFFF;
-  background-color: #83B3D3;;
+.benefist-item-backgraund {
+  color: #ffffff;
+  background-color: #83b3d3;
 }
-.benefist-backgraund{
-  background-color:rgba(131, 179, 211, 0.12);
+.benefist-backgraund {
+  background-color: rgba(131, 179, 211, 0.12);
 }
-.benefist-backgraund-color{
-  background-color:rgba(131, 179, 211, 0.2);
-}]
+.benefist-backgraund-color {
+  background-color: rgba(131, 179, 211, 0.2);
+}
 /* конец секции бенефист */
 /* начало секции  hotel-search */
-.hotel-search-button{
-  background-color:#756257;
-  color: #FFFFFF;
+.hotel-search-button {
+  background-color: #756257;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 36px;
+}
+.hotel-search-text {
+  font-size: 22px;
+  line-height: 26px;
 }
 /* конец секции  hotel-search */
 /* начало секции  newsletter */
-.newsletter{
+.newsletter {
   background-image: url("images/background.jpg");
   background-size: 100% auto;
   color: #ffffff;
