@@ -37,44 +37,20 @@ body {
   background-color: #ffffff;
   color: #000000;
 }
-.social-list-phone {
-  font-weight: normal;
-  font-size: 40px;
-  line-height: 40px;
-  text-align: center;
-  text-transform: uppercase;
-}
+/* базовые стили */
 .main-title {
   font-weight: bold;
   font-size: 30px;
   line-height: 36px;
-  text-align: center;
-  text-transform: uppercase;
 }
 .article-title {
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
-  text-align: center;
-  text-transform: uppercase;
 }
 .primary-text {
   font-size: 22px;
   line-height: 36px;
-  text-align: center;
-}
-.hotel-search-text {
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 26px;
-  text-align: center;
-}
-.newsletter-text {
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 26px;
-  text-align: center;
-  color: #ffffff;
 }
 .secondary-text {
   font-weight: bold;
@@ -83,11 +59,47 @@ body {
   color: #000000;
 }
 .tertiary-text {
-  font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
 }
-.benefist-item-color {
+/* конец базовых стилей */
+
+/* навигация главная */
+.navigation-link {
+  color: inherit;
+  text-decoration: none;
+}
+/* конец главной навигации */
+/* начало правой навигации */
+.nav-right-link-want {
+  color: #ffffff;
+  background-color: #756257;
+  text-decoration: none;
+}
+/* конец правой навигации */
+/* начало секции бенефист */
+.benefist-item-backgraund{
+  color: #FFFFFF;
+  background-color: #83B3D3;;
+}
+.benefist-backgraund{
+  background-color:rgba(131, 179, 211, 0.12);
+}
+.benefist-backgraund-color{
+  background-color:rgba(131, 179, 211, 0.2);
+}]
+/* конец секции бенефист */
+/* начало секции  hotel-search */
+.hotel-search-button{
+  background-color:#756257;
+  color: #FFFFFF;
+}
+/* конец секции  hotel-search */
+/* начало секции  newsletter */
+.newsletter{
+  background-image: url("images/background.jpg");
+  background-size: 100% auto;
   color: #ffffff;
 }
+/* конец секции  newsletter */
