@@ -122,6 +122,7 @@ body {
 /* начало секции  catalog */
 .catalog {
   color: #ffffff;
+  background-image: url("../images/catalog/catalog-background.jpg");
 }
 .catalog-title {
   font-weight: bold;
@@ -131,6 +132,8 @@ body {
 .breadcrumbs-link {
   font-size: 16px;
   line-height: 21px;
+  text-decoration: none;
+  color: #ffffff;
 }
 .catalog-filter-title {
   font-weight: bold;
@@ -146,9 +149,11 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 21px;
+  color: #ffffff;
 }
 .button{
   font-size: 18px;
 line-height: 23px;
+color: #ffffff;
 }
 /* конец секции  catalog */
