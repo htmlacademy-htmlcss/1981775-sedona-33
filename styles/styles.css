@@ -119,4 +119,36 @@ body {
   line-height: 40px;
 }
 /* конец секции  footer */
-/* начало секции  footer */
+/* начало секции  catalog */
+.catalog {
+  color: #ffffff;
+}
+.catalog-title {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 78px;
+}
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+}
+.catalog-filter-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+}
+.control-input {
+  font-size: 18px;
+  line-height: 23px;
+}
+.button-apply {
+  background-color: #83b3d3;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+}
+.button{
+  font-size: 18px;
+line-height: 23px;
+}
+/* конец секции  catalog */
