@@ -144,14 +144,14 @@ body {
   font-size: 18px;
   line-height: 23px;
 }
-.button-apply {
+.catalog-button-apply {
   background-color: #83b3d3;
   font-weight: bold;
   font-size: 16px;
   line-height: 21px;
   color: #ffffff;
 }
-.button {
+.catalog-button {
   font-size: 18px;
   line-height: 23px;
   color: #ffffff;
