@@ -1,0 +1,248 @@
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+body {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #ffffff;
+  color: #000000;
+}
+/* базовые стили */
+.main-title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+}
+.article-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+.primary-text {
+  font-size: 22px;
+  line-height: 36px;
+}
+.secondary-text {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+.tertiary-text {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+/* конец базовых стилей */
+
+/* навигация главная */
+.navigation-link {
+  color: inherit;
+  text-decoration: none;
+}
+/* конец главной навигации */
+/* начало правой навигации */
+.nav-right-link-want {
+  color: #ffffff;
+  background-color: #756257;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* конец правой навигации */
+/* начало секции бенефист */
+.benefist-item-backgraund {
+  color: #ffffff;
+  background-color: #83b3d3;
+}
+.benefist-backgraund {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+.benefist-backgraund-color {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+/* конец секции бенефист */
+/* начало секции  hotel-search */
+.hotel-search-button {
+  background-color: #756257;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 36px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.hotel-search-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+/* конец секции  hotel-search */
+/* начало секции  newsletter */
+.newsletter {
+  background-image: url("../images/background.jpg");
+  background-size: 100% auto;
+  color: #ffffff;
+  background-color: #83b3d3;
+}
+.newsletter-title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+}
+.newsletter-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+.newsletter-button {
+  font-size: 20px;
+  line-height: 26px;
+  background-color: #83b3d3;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+}
+/* конец секции  newsletter */
+/* начало секции  footer */
+.footer-page-phone {
+  text-decoration: none;
+  color: #000000;
+  font-size: 40px;
+  line-height: 40px;
+}
+/* конец секции  footer */
+/* начало секции  catalog */
+.catalog {
+  color: #ffffff;
+  background-image: url("../images/catalog/catalog-background.jpg");
+}
+.catalog-title {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 78px;
+}
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.catalog-filter-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+}
+.control-input {
+  font-size: 18px;
+  line-height: 23px;
+}
+.catalog-button-apply {
+  background-color: #83b3d3;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.catalog-button {
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+/* конец секции  catalog */
+/* начало секции  sorting */
+.sorting-title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 39px;
+}
+.sorting-option {
+  font-size: 18px;
+  line-height: 23px;
+}
+/* конец секции  sorting */
+/* начало секции  catalog-list */
+.catalog-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+}
+.catalog-text {
+  font-size: 18px;
+  line-height: 23px;
+}
+.catalog-more {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+}
+.catalog-more-color {
+  background-color: #756257;
+  color: #ffffff;
+  text-decoration: none;
+}
+.catalog-more-favorites {
+  background-color: #83b3d3;
+  color: #ffffff;
+  text-decoration: none;
+}
+.catalog-more-green {
+  background-color: #7db54f;
+  color: #ffffff;
+  text-decoration: none;
+}
+.catalog-rating-number {
+  font-size: 16px;
+  line-height: 21px;
+  background-color: #f2f2f2;
+  color: #333333;
+}
+.catalog-bottom {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  background-color: #83b3d3;
+  color: #ffffff;
+}
+/* конец секции  catalog-list */
+/* начало секции pogination */
+.pagination-link {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  background-color: #83b3d3;
+  color: #ffffff;
+  text-decoration: none;
+}
+.pagination-link-color {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  background-color: #f2f2f2;
+  color: #000000;
+}
+.pagination-page {
+  font-size: 18px;
+  line-height: 23px;
+}
+/* конец секции  pogination */
+/* начало секции  mailing-listt */
+.mailing-list-bottom {
+  background-color: #83b3d3;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.field {
+  background-color: #f2f2f2;
+  font-size: 18px;
+  line-height: 26px;
+}
+/* конец секции mailing-list */
