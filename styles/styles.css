@@ -151,9 +151,98 @@ body {
   line-height: 21px;
   color: #ffffff;
 }
-.button{
+.button {
   font-size: 18px;
-line-height: 23px;
-color: #ffffff;
+  line-height: 23px;
+  color: #ffffff;
 }
 /* конец секции  catalog */
+/* начало секции  sorting */
+.sorting-title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 39px;
+}
+.sorting-option {
+  font-size: 18px;
+  line-height: 23px;
+}
+/* конец секции  sorting */
+/* начало секции  catalog-list */
+.catalog-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+}
+.catalog-text {
+  font-size: 18px;
+  line-height: 23px;
+}
+.catalog-more {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+}
+.catalog-more-color {
+  background-color: #756257;
+  color: #ffffff;
+  text-decoration: none;
+}
+.catalog-more-favorites {
+  background-color: #83b3d3;
+  color: #ffffff;
+  text-decoration: none;
+}
+.catalog-more-green {
+  background-color: #7db54f;
+  color: #ffffff;
+  text-decoration: none;
+}
+.catalog-rating-number {
+  font-size: 16px;
+  line-height: 21px;
+  background-color: #f2f2f2;
+  color: #333333;
+}
+.catalog-bottom {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  background-color: #83b3d3;
+  color: #ffffff;
+}
+/* конец секции  catalog-list */
+/* начало секции pogination */
+.pagination-link {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  background-color: #83b3d3;
+  color: #ffffff;
+  text-decoration: none;
+}
+.pagination-link-color {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  background-color: #f2f2f2;
+  color: #000000;
+}
+.pagination-page {
+  font-size: 18px;
+  line-height: 23px;
+}
+/* конец секции  pogination */
+/* начало секции  mailing-listt */
+.mailing-list-bottom {
+  background-color: #83b3d3;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.field {
+  background-color: #f2f2f2;
+  font-size: 18px;
+  line-height: 26px;
+}
+/* конец секции mailing-list */
