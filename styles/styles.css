@@ -25,6 +25,13 @@ body {
   color: #000000;
 }
 /* базовые стили */
+.main-container {
+  flex-grow: 1;
+}
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
 .main-title {
   font-weight: bold;
   font-size: 30px;
@@ -80,7 +87,32 @@ body {
   font-weight: bold;
 }
 /* конец правой навигации */
+/* начало секции hero */
+.hero-bg {
+  display: block;
+  margin: 0 auto;
+}
+/* конец секции hero */
 /* начало секции бенефист */
+.benefist-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.benefist-item{
+  width: 400px;
+}
+.benefist-item:nth-child(2)
+.benefist-item:nth-child(6){
+  width: 800px;
+}
+.benefist-item-first-container {
+  justify-content: space-between;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
 .benefist-item-backgraund {
   color: #ffffff;
   background-color: #83b3d3;
@@ -254,7 +286,21 @@ body {
   line-height: 23px;
 }
 /* конец секции  pogination */
-/* начало секции  mailing-listt */
+/* начало секции  footer */
+.page-footer-container {
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+}
+.footer-page-phone {
+  font-style: normal;
+}
+.footer-logo {
+  margin-left: auto;
+  max-width: 115px;
+}
+/* конец секции  footer */
+/* начало секции  mailing-list */
 .mailing-list-bottom {
   background-color: #83b3d3;
   color: #ffffff;
@@ -267,44 +313,9 @@ body {
   line-height: 26px;
 }
 /* конец секции mailing-list */
-.main-container {
-  flex-grow: 1;
-}
-.page-container {
-  width: 1200px;
-  margin: 0 auto;
-}
-.hero-bg {
-  display: block;
-  margin: 0 auto;
-}
-.benefist-item-first-container {
-  justify-content: space-between;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-.benefist-list {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 40px;
-}
-.benefist-title {
-  width: 400px;
-}
-.page-footer-container {
-  display: flex;
-  width: 940px;
-  margin: 0 auto;
-}
+/* начало секции  social-list */
 .social-list {
   width: 107px;
   margin-right: 18px;
 }
-.footer-page-phone {
-  font-style: normal;
-}
-.footer-logo {
-  margin-left: auto;
-  max-width: 115px;
-}
+/* конец секции  social-list */
