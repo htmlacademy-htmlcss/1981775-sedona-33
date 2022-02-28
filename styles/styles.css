@@ -63,7 +63,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.nav-right-list{
+.nav-right-list {
   max-width: 250px;
   margin-left: auto;
 }
@@ -274,18 +274,37 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
-.hero-bg{
+.hero-bg {
   display: block;
   margin: 0 auto;
 }
-.benefist-item-first-container{
+.benefist-item-first-container {
   justify-content: space-between;
   display: flex;
   margin: 0;
   padding: 0;
 }
-.benefist-list{
+.benefist-list {
   display: flex;
   justify-content: space-between;
   padding: 0 40px;
+}
+.benefist-title {
+  width: 400px;
+}
+.page-footer-container {
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+}
+.social-list {
+  width: 107px;
+  margin-right: 18px;
+}
+.footer-page-phone {
+  font-style: normal;
+}
+.footer-logo {
+  margin-left: auto;
+  max-width: 115px;
 }
