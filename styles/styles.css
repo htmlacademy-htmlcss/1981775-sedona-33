@@ -88,6 +88,9 @@ body {
 }
 /* конец правой навигации */
 /* начало секции hero */
+.hero {
+  text-align: center;
+}
 .hero-bg {
   display: block;
   margin: 0 auto;
@@ -99,12 +102,14 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   list-style: none;
+  padding: 0;
+  text-align: center;
 }
-.benefist-item{
+.benefist-item {
   width: 400px;
 }
-.benefist-item:nth-child(2)
-.benefist-item:nth-child(6){
+.benefist-item:nth-child(2),
+.benefist-item:nth-child(6) {
   width: 800px;
 }
 .benefist-item-first-container {
@@ -125,6 +130,9 @@ body {
 }
 /* конец секции бенефист */
 /* начало секции  hotel-search */
+.hotel-search {
+  text-align: center;
+}
 .hotel-search-button {
   background-color: #756257;
   color: #ffffff;
@@ -145,6 +153,7 @@ body {
   background-size: 100% auto;
   color: #ffffff;
   background-color: #83b3d3;
+  text-align: center;
 }
 .newsletter-title {
   font-weight: bold;
@@ -319,3 +328,40 @@ body {
   margin-right: 18px;
 }
 /* конец секции  social-list */
+/* начало секции  catalog */
+.catalog-filter {
+  display: flex;
+  flex-direction: row;
+}
+/* конец секции  catalog */
+/* начало секции  sorting */
+.sorting{
+  display: flex;
+  flex-direction: row;
+}
+/* конец секции  sorting */
+/* начало секции catalog-list  */
+.catalog-list{
+  display: flex;
+  flex-direction: row;
+  width: 340px;
+}
+/* конец секции  catalog-list */
+/* начало секции  catalog-bottom */
+.catalog-bottom{
+  display: flex;
+  margin: 0 auto;
+}
+/* конец секции  catalog-bottom */
+/* начало секции  pogination */
+.pogination{
+  display: flex;
+  flex-direction: row;
+}
+/* конец секции  pogination */
+/* начало секции  mailing-list */
+.mailing-list {
+  text-align: center;
+}
+/* конец секции  mailing-list */
+
