@@ -231,6 +231,18 @@ body {
 }
 /* конец секции  sorting */
 /* начало секции  catalog-list */
+.catalog-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.catalog-item {
+  width: 340px;
+}
 .catalog-title {
   font-weight: bold;
   font-size: 24px;
@@ -335,26 +347,19 @@ body {
 }
 /* конец секции  catalog */
 /* начало секции  sorting */
-.sorting{
+.sorting {
   display: flex;
   flex-direction: row;
 }
 /* конец секции  sorting */
-/* начало секции catalog-list  */
-.catalog-list{
-  display: flex;
-  flex-direction: row;
-  width: 340px;
-}
-/* конец секции  catalog-list */
 /* начало секции  catalog-bottom */
-.catalog-bottom{
+.catalog-bottom {
   display: flex;
   margin: 0 auto;
 }
 /* конец секции  catalog-bottom */
 /* начало секции  pogination */
-.pogination{
+.pogination {
   display: flex;
   flex-direction: row;
 }
@@ -364,4 +369,3 @@ body {
   text-align: center;
 }
 /* конец секции  mailing-list */
-
