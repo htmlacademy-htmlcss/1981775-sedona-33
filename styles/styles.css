@@ -24,6 +24,16 @@ body {
   background-color: #ffffff;
   color: #000000;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* базовые стили */
 .main-container {
   flex-grow: 1;
@@ -66,25 +76,46 @@ body {
   margin: 0 auto;
 }
 .navigation-list {
+  display: flex;
+  flex-wrap: wrap;
   width: 430px;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 .navigation-link {
+  display: block;
+  padding: 24px 20px;
   color: inherit;
   text-decoration: none;
+  min-width: 18px;
+  min-height: 18px;
+}
+.nav-right-link .navigation-link {
+  min-width: 16px;
+  min-height: 22px;
 }
 /* конец главной навигации */
 /* начало правой навигации */
 .nav-right-link-want {
+  display: block;
   color: #ffffff;
   background-color: #756257;
   text-decoration: none;
   font-weight: bold;
+  padding: 24px 19px;
 }
 .nav-right-list {
+  display: flex;
   max-width: 250px;
   margin-left: auto;
+  list-style-type: none;
+  min-width: 18px;
+  min-height: 18px;
+}
+.nav-right-link {
+  display: block;
+  padding: 24px 19px;
 }
 /* конец правой навигации */
 /* начало секции hero */
@@ -94,6 +125,15 @@ body {
 .hero-bg {
   display: block;
   margin: 0 auto;
+  margin-bottom: 51px;
+}
+.main-title {
+  margin-top: 63px;
+  margin-bottom: 147px;
+}
+.hero-title {
+  margin-top: 31px;
+  margin-bottom: 80px;
 }
 /* конец секции hero */
 /* начало секции бенефист */
@@ -103,21 +143,15 @@ body {
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
-  text-align: center;
 }
 .benefist-item {
   width: 400px;
+  Height :384px;
   text-align: center;
 }
 .benefist-item:nth-child(2),
 .benefist-item:nth-child(6) {
   width: 800px;
-}
-.benefist-item-first-container {
-  justify-content: space-between;
-  display: flex;
-  margin: 0;
-  padding: 0;
 }
 .benefist-item-backgraund {
   color: #ffffff;
@@ -128,6 +162,18 @@ body {
 }
 .benefist-backgraund-color {
   background-color: rgba(131, 179, 211, 0.2);
+}
+.benefist-title {
+  margin-top: 98px;
+
+}
+.benefist-image {
+  margin-top: 90px;
+}
+.benefist-title:nth-child(4),
+.benefist-title:nth-child(5),
+.benefist-title:nth-child(6){
+  margin-top: 184px;
 }
 /* конец секции бенефист */
 /* начало секции  hotel-search */
@@ -142,10 +188,14 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+  margin-bottom: 108px;
 }
 .hotel-search-text {
   font-size: 22px;
   line-height: 26px;
+}
+.hotel-search-title {
+  margin-top: 91px;
 }
 /* конец секции  hotel-search */
 /* начало секции  newsletter */
@@ -160,6 +210,7 @@ body {
   font-weight: bold;
   font-size: 30px;
   line-height: 36px;
+  margin-top: 94px;
 }
 .newsletter-text {
   font-size: 22px;
@@ -172,6 +223,10 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   color: #ffffff;
+
+}
+.newsletter-form {
+margin-bottom: 94px;
 }
 /* конец секции  newsletter */
 /* начало секции  footer */
@@ -300,6 +355,12 @@ body {
   font-size: 18px;
   line-height: 23px;
 }
+.sorting-top {
+  display: flex;
+}
+.sorting-list {
+  display: flex;
+}
 /* конец секции  sorting */
 /* начало секции pogination */
 .pagination-link {
@@ -346,11 +407,30 @@ body {
 .social-list {
   width: 107px;
   margin-right: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 430px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+.social-item {
+  width: 28px;
+  height: 15px;
+  margin-right: 29px;
 }
 /* конец секции  social-list */
-/* начало секции  sorting */
-.sorting {
-  display: flex;
-  flex-direction: row;
+/* начало секции footer-page-phone */
+.footer-page-phone {
+  width: 720px;
+  height: 140px;
+  margin: 61px 240px 40px 240px;
 }
-/* конец секции  sorting */
+/* конец секции  footer-page-phone */
+/* конец секции  footer-logo */
+.footer-logo {
+  margin: 42px 72px 44px 53px;
+}
+/* начало секции footer-logo */
