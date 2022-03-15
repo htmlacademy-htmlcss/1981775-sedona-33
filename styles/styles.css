@@ -164,7 +164,7 @@ body {
   background-color: rgba(131, 179, 211, 0.2);
 }
 .benefist-title {
-  margin-top: 98px;
+  margin-top: 23px;
 
 }
 .benefist-image {
@@ -403,34 +403,32 @@ margin-bottom: 94px;
   text-align: center;
 }
 /* конец секции mailing-list */
+.footer-page {
+  width: 1200px;
+  height: 120px;
+}
 /* начало секции  social-list */
 .social-list {
   width: 107px;
-  margin-right: 18px;
+  height: 18px;
   display: flex;
   flex-wrap: wrap;
-  width: 430px;
-  margin: 0;
-  padding: 0;
   list-style-type: none;
-  margin-top: 0;
-  margin-bottom: 14px;
 }
 .social-item {
-  width: 28px;
-  height: 15px;
-  margin-right: 29px;
+
 }
 /* конец секции  social-list */
 /* начало секции footer-page-phone */
 .footer-page-phone {
   width: 720px;
   height: 140px;
-  margin: 61px 240px 40px 240px;
 }
 /* конец секции  footer-page-phone */
 /* конец секции  footer-logo */
 .footer-logo {
+  width: 115px;
+  height: 34px;
   margin: 42px 72px 44px 53px;
 }
 /* начало секции footer-logo */
