@@ -206,12 +206,15 @@ body {
   background-color: #83b3d3;
   text-align: center;
   height: 411;
+  width: 1200px;
+
 }
 .newsletter-title {
   font-weight: bold;
   font-size: 30px;
   line-height: 36px;
   margin-top: 94px;
+
 }
 .newsletter-text {
   font-size: 22px;
