@@ -127,15 +127,21 @@ body {
   margin: 0 auto;
   margin-bottom: 51px;
 }
-.main-title {
-  margin-top: 63px;
-  margin-bottom: 147px;
-}
 .hero-title {
   margin-top: 31px;
   margin-bottom: 80px;
 }
 /* конец секции hero */
+/* начало секции mait-item */
+.mait-item {
+  margin-top: 63px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.hero-title {
+  margin-top: 31px;
+}
+/* конец секции mait-item */
 /* начало секции бенефист */
 .benefist-list {
   display: flex;
@@ -146,7 +152,7 @@ body {
 }
 .benefist-item {
   width: 400px;
-  Height :384px;
+  height: 384px;
   text-align: center;
 }
 .benefist-item:nth-child(2),
@@ -165,20 +171,23 @@ body {
 }
 .benefist-title {
   margin-top: 94px;
-
 }
 .benefist-image {
   margin-top: 90px;
 }
-.benefist-item:nth-child(3) .benefist-title ,
-.benefist-item:nth-child(4) .benefist-title ,
-.benefist-item:nth-child(5) .benefist-title{
+.benefist-item:nth-child(3) .benefist-title,
+.benefist-item:nth-child(4) .benefist-title,
+.benefist-item:nth-child(5) .benefist-title {
   margin-top: 23px;
 }
 /* конец секции бенефист */
 /* начало секции  hotel-search */
 .hotel-search {
   text-align: center;
+  overflow: hidden;
+  padding-top: 94px;
+  padding-bottom: 108px;
+  width: 1200px;
 }
 .hotel-search-button {
   background-color: #756257;
@@ -193,6 +202,7 @@ body {
 .hotel-search-text {
   font-size: 22px;
   line-height: 26px;
+  margin-top: 56px;
 }
 .hotel-search-title {
   margin-top: 91px;
@@ -205,20 +215,21 @@ body {
   color: #ffffff;
   background-color: #83b3d3;
   text-align: center;
-  height: 411;
   width: 1200px;
-
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .newsletter-title {
   font-weight: bold;
   font-size: 30px;
   line-height: 36px;
-  margin-top: 94px;
-
+  margin: 0;
 }
 .newsletter-text {
   font-size: 22px;
   line-height: 26px;
+  margin-top: 29px;
+  margin-bottom: 46px;
 }
 .newsletter-button {
   font-size: 20px;
@@ -227,28 +238,38 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   color: #ffffff;
-
-}
-.newsletter-form {
-margin-bottom: 94px;
 }
 /* конец секции  newsletter */
 /* начало секции  footer */
+.footer-page {
+  width: 1200px;
+  height: 120px;
+}
 .footer-page-phone {
   text-decoration: none;
   color: #000000;
   font-size: 40px;
   line-height: 40px;
   font-style: normal;
+  text-align: center;
+  width: 720px;
+  height: 140px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 71px;
+  padding-right: 51px;
 }
 .page-footer-container {
   display: flex;
-  width: 940px;
-  margin: 0 auto;
+  width: 1200px;
 }
 .footer-logo {
-  margin-left: auto;
   max-width: 115px;
+  display: block;
+  width: 115px;
+  height: 34px;
+  padding-right: 72px;
+  padding-top: 45px;
 }
 /* конец секции  footer */
 /* начало секции  catalog */
@@ -342,11 +363,19 @@ margin-bottom: 94px;
 }
 /* конец секции  catalog */
 /* начало catalog page .breadcrumbs*/
+.breadcrumbs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  color: #242424;
+  list-style-type: none;
+}
 .breadcrumbs-link {
   font-size: 16px;
   line-height: 21px;
   text-decoration: none;
   color: #ffffff;
+  margin-right: 30px;
 }
 /* конец catalog page .breadcrumbs*/
 /* начало секции  sorting */
@@ -364,6 +393,10 @@ margin-bottom: 94px;
 }
 .sorting-list {
   display: flex;
+  list-style-type: none;
+}
+.load-more {
+  text-align: center;
 }
 /* конец секции  sorting */
 /* начало секции pogination */
@@ -390,6 +423,13 @@ margin-bottom: 94px;
   display: flex;
   flex-direction: row;
 }
+.pogination-list {
+  display: flex;
+  list-style-type: none;
+}
+.pagination-linknot (:last-child) {
+  padding-left: 8px;
+}
 /* конец секции  pogination */
 /* начало секции  mailing-list */
 .mailing-list-bottom {
@@ -407,10 +447,6 @@ margin-bottom: 94px;
   text-align: center;
 }
 /* конец секции mailing-list */
-.footer-page {
-  width: 1200px;
-  height: 120px;
-}
 /* начало секции  social-list */
 .social-list {
   width: 107px;
@@ -422,19 +458,6 @@ margin-bottom: 94px;
 .social-item {
   width: 18;
   height: 15;
-  padding: 5px 5px;
+  padding: 30px 5px;
 }
 /* конец секции  social-list */
-/* начало секции footer-page-phone */
-.footer-page-phone {
-  width: 720px;
-  height: 140px;
-}
-/* конец секции  footer-page-phone */
-/* конец секции  footer-logo */
-.footer-logo {
-  width: 115px;
-  height: 34px;
-  margin: 42px 72px 44px 53px;
-}
-/* начало секции footer-logo */
