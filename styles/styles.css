@@ -189,6 +189,7 @@ body {
   padding-bottom: 93px;
 }
 .hotel-search-button {
+  display: block;
   background-color: #756257;
   color: #ffffff;
   font-size: 20px;
@@ -197,6 +198,10 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 108px;
+  width: 575px;
+  height: 60px;
+  margin-left: 312px;
+  align-items: center;
 }
 .hotel-search-text {
   font-size: 22px;
@@ -238,6 +243,22 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   color: #ffffff;
+  width: 200px;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.newsletter-inpyt {
+  width: 600px;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: #F2F2F2;;
+}
+.newsletter-form {
+
 }
 /* конец секции  newsletter */
 /* начало секции  footer */
@@ -256,6 +277,8 @@ body {
   width: 1200px;
   margin: 0 auto;
   align-items: center;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 .footer-logo {
   max-width: 115px;
@@ -458,8 +481,12 @@ body {
 
 }
 .pagination-item {
+  display: flex;
   width: 55px;
   height: 55px;
+  background-color: #83b3d3;
+  align-items: center;
+  justify-content: center;
 }
 .pagination-item:not(:last-child) {
   margin-right: 8px;
@@ -469,6 +496,7 @@ body {
 .select-wrap {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 .select-poginotion {
   display: block;
@@ -478,15 +506,20 @@ body {
 /* конец секции  select-wrap */
 /* начало секции  mailing-list */
 .mailing-list-bottom {
+  display: block;
   background-color: #83b3d3;
   color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
+  width: 200px;
+  height: 60px;
 }
 .mailing-list-field {
   background-color: #f2f2f2;
   font-size: 18px;
   line-height: 26px;
+  width: 600px;
+  height: 60px;
 }
 .mailing-list {
   text-align: center;
@@ -507,7 +540,7 @@ body {
   width: 18px;
   height: 15px;
 }
-.social-link:not(:last-child) {
+.social-item:not(:last-child) {
   margin-right: 30px;
 }
 /* конец секции  social-list */

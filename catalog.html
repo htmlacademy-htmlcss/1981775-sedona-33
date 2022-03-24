@@ -11,20 +11,20 @@
 
 <body>
   <header class="page-header">
-    <a class="logo" href="#">
-      <img src="images/logo.png" width="139" height="70" alt="Логотип Седона" />
-    </a>
     <nav class="navigation">
-      <ul class="navigation-list">
+      <a class="logo" href="#">
+        <img src="images/logo.png" width="139" height="70" alt="Логотип Седона" />
+      </a>
+      <ul class="navigation-list secondary-text">
          
         <li class="navigation-item">
-          <a class="navigation-link secondary-text " href="#">Главная</a>
+          <a class="navigation-link" href="/">Главная</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link secondary-text " href="#">О Седоне</a>
+          <a class="navigation-link" href="#">О Седоне</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link secondary-text " href="#">Гостиница</a>
+          <a class="navigation-link" href="#">Гостиница</a>
         </li>
       </ul>
       <ul class="nav-right-list">
@@ -35,10 +35,10 @@
         </li>
         <li class="nav-right-item">
           <a class="nav-right-link" href="#"><img src="images/favorite.svg" width="18" height="17"
-              alt="значек сердца"></a>
+              alt="значек сердца" /></a>
         </li>
         <li class="nav-right-item">
-          <a class="nav-right-link-want" href="#">хочу сюда!</a>
+          <a class="nav-right-link-want" href="#">хочу суда</a>
         </li>
       </ul>
     </nav>
@@ -240,11 +240,12 @@
         <p class="mailing-text primary-text">
           Только полезная информация и никакого спама,честное бойскаутское!
         </p>
-        <input class="mailing-list-field" placeholder="Ваш e-mail" type="email" name="newsletter-email"
-          id="newsletter-email" required />
-        <button class="bottom" type="submit">
-          <span class="mailing-list-bottom">Подписаться</span>
-        </button>
+        <form class="newsletter-form" action="https://echo.htmlacademy.ru/courses" method="post">
+          <label for="login-field">
+            <input class="newsletter-inpyt" type="text" id="login-field" name="e-mail" placeholder="Ваш e-mail">
+          </label>
+          <input class="newsletter-button" type="submit" value="Подписаться">
+        </form>
       </section>
     </div>
   </main>
